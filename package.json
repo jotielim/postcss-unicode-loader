@@ -1,6 +1,6 @@
 {
-  "name": "postcss-unicode-loader",
-  "version": "0.0.0",
+  "name": "postcss-unicode-selector",
+  "version": "0.1.0",
   "description": "PostCSS plugin to convert unicode in the CSS selector.",
   "keywords": [
     "postcss",
@@ -11,11 +11,11 @@
   ],
   "author": "Yonathan Lim <jotielim@gmail.com>",
   "license": "MIT",
-  "repository": "jotielim/postcss-unicode-loader",
+  "repository": "jotielim/postcss-unicode-selector",
   "bugs": {
-    "url": "https://github.com/jotielim/postcss-unicode-loader/issues"
+    "url": "https://github.com/jotielim/postcss-unicode-selector/issues"
   },
-  "homepage": "https://github.com/jotielim/postcss-unicode-loader",
+  "homepage": "https://github.com/jotielim/postcss-unicode-selector",
   "dependencies": {
     "postcss": "^5.2.6"
   },

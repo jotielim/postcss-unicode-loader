@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-unicode-loader', function () {
+module.exports = postcss.plugin('postcss-unicode-selector', function () {
     return function (root) {
         root.walkRules(rule => {
             var selector = rule.selector;
