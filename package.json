@@ -1,0 +1,36 @@
+{
+  "name": "postcss-unicode-loader",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to convert unicode in the CSS selector.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "unicode",
+    "unicode selector"
+  ],
+  "author": "Yonathan Lim <jotielim@gmail.com>",
+  "license": "MIT",
+  "repository": "jotielim/postcss-unicode-loader",
+  "bugs": {
+    "url": "https://github.com/jotielim/postcss-unicode-loader/issues"
+  },
+  "homepage": "https://github.com/jotielim/postcss-unicode-loader",
+  "dependencies": {
+    "postcss": "^5.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^18.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
